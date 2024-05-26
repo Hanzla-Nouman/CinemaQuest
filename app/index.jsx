@@ -7,7 +7,7 @@ export default function Index() {
    
 
     <View style={styles.container} >
-      <Text >Movies App</Text>
+      <Text >Movies App in react Native</Text>
     </View>
     
     </>
