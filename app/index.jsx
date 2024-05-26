@@ -7,7 +7,7 @@ export default function Index() {
    
 
     <View style={styles.container} >
-      <Text >Edit app/.</Text>
+      <Text >Movies App</Text>
     </View>
     
     </>
