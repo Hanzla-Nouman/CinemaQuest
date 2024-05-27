@@ -1,15 +1,16 @@
 
-import { StatusBar, Text, View ,StyleSheet} from "react-native";
+import { StatusBar, Text, View ,StyleSheet,SafeAreaView} from "react-native";
 
 export default function Index() {
   return (
     <>
    
-
-    <View style={styles.container} >
-      <Text >Movies App in react Native</Text>
+    <View className="bg-neutral-900 flex-1" >
+<SafeAreaView className="mt-4"> 
+<StatusBar style="light"/>
+      <Text className="text-slate-300 text-lg" >Movies App in react Native</Text>
+    </SafeAreaView>
     </View>
-    
     </>
   );
 }
@@ -18,6 +19,6 @@ const styles = StyleSheet.create({
     flex: 1,
     justifyContent: "center",
     alignItems: "center",
-    backgroundColor:"#171717"
+    // backgroundColor:"#171717"
   },
 })
